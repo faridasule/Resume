@@ -5,28 +5,16 @@ import {
   Spacer,
   Heading,
   ButtonGroup,
-  IconButton,
-  Stack,
   Drawer,
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
-  DrawerHeader,
   DrawerBody,
   Button,
-  Hide,
   useDisclosure,
-  Input,
-  DrawerFooter,
-  Show,
-  RiNotification4Line,
-  Divider,
-  btnRef,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { HamburgerIcon } from "@chakra-ui/icons";
-// import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-// import { useState } from "react";
 
 export const Header = () => {
   const [size, setSize] = React.useState("");
@@ -38,7 +26,6 @@ export const Header = () => {
     onOpen();
   };
 
-  const sizes = ["xs", "sm", "md", "lg", "xl", "full"];
   const [activePage, setActivePage] = useState("#header");
 
   return (

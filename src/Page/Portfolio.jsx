@@ -4,8 +4,7 @@ import { Hero } from "../Component/Hero";
 import About from "../Component/About";
 import Experience from "../Component/Experience";
 import { Header } from "../Component/Header";
-// import { Project } from "../Component/Project";
-import { Box, Text, Flex, Heading, Button } from "@chakra-ui/react"; // adding linear gradient and
+import { Box, Text, Flex, Heading, Button } from "@chakra-ui/react"; 
 import Works from "../Component/Works";
 import Social from "../Component/Social";
 

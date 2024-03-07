@@ -1,9 +1,7 @@
-import React, { useRef } from 'react'
-// import Farimage from "../Farimage/altrufund";
-import Tiidecuisine from '../Farimage/Tiidecuisine'
+import React from 'react'
 import HarunCloth from '../Farimage/harun.png'
 import Resume from '../Farimage/portfolioImg.png'
-
+import UserData from '../Farimage/user-data.png'
 import { Link } from 'react-router-dom'
 
 import {
@@ -17,9 +15,7 @@ import {
   ButtonGroup,
   Heading,
   Image,
-  HStack,
   Box,
-  VStack,
 } from '@chakra-ui/react'
 
 const Works = () => {
@@ -36,11 +32,8 @@ const Works = () => {
           maxW={['60%', '60%', '60%', '90%']}
           width="80%"
           align="center"
-          // p={["3rem", "1rem", "2rem", "3rem"]}
           gap="2rem"
-          // display={["column", "column", "flex", "flex"]}
-          // justifyContent="space-between"
-          // spacing="4"
+         
         >
           <Card
             w="800px"
@@ -96,10 +89,14 @@ const Works = () => {
             <CardFooter>
               <ButtonGroup spacing="2">
                 <Button variant="solid" colorScheme=" #4eb1ba;">
-                  GitHub
+                  <a href='https://github.com/faridasule/Resume'>
+                    GitHub
+                    </a>
                 </Button>
                 <Button variant="ghost" colorScheme="#4eb1ba">
-                  LiveDemo
+                  <a href='https://resume-lovat-kappa.vercel.app'>
+                    LiveDemo
+                    </a>
                 </Button>
               </ButtonGroup>
             </CardFooter>
@@ -113,7 +110,7 @@ const Works = () => {
             className="portfolio-card"
           >
             <CardBody>
-              <Image src={""} alt="Portfolio" borderRadius="lg" />
+              <Image src={UserData} alt="user-data" borderRadius="lg" />
               <Stack mt="6" spacing="3">
                 <Heading size="md">Living room Sofa</Heading>
        
@@ -126,10 +123,12 @@ const Works = () => {
             <CardFooter>
               <ButtonGroup spacing="2">
                 <Button variant="solid" colorScheme=" #4eb1ba;">
-                  <Link href="">GitHub</Link>
+                  <Link href="https://github.com/faridasule/User-Database">GitHub</Link>
                 </Button>
                 <Button variant="ghost" colorScheme="#4eb1ba">
-                  LiveDemo
+                  <a href='https://user-database-tawny.vercel.app/'>
+                    LiveDemo
+                    </a>
                 </Button>
               </ButtonGroup>
             </CardFooter>

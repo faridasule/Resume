@@ -39,11 +39,10 @@ export const Hero = () => {
             FARIDA SULE
           </Heading>
           <Text fontSize={["18px"]} lineHeight="2.3rem" maxW="100%%">
-            Front-end developer, knowledgeable in HTML, CSS, GIT, JAVA SCRIPT,
-            REACT and GIT. Experienced in collaborating with teams on different
-            project using GitHub. passionate about designing responsive website.
-            Able to effectively self-manage during independent project, as well
-            as collaborate as part of a productive team.
+           Result-oriented frontend developer with 2 years of experience developing and maintaining frontend web application using 
+React.js and Next.js Skilled at collaborating with Backend, UX and design teams, to plan and execute functional specifcations 
+for websites. Demonstrated ability to thrive within team environments, leveraging a profound enthusiasm for constructing 
+responsive web applications that prioritize seamless functionality, captivating user interfaces, and intuitive navigation.
           </Text>
           <Stack direction="row" spacing={4} align="center" mt="20px">
             <Button colorScheme="teal" variant="outline" w="150px">

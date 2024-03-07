@@ -1,17 +1,12 @@
 import {
-  Container,
   HStack,
   Heading,
   Box,
   Text,
   Image,
   VStack,
-  Link,
-  ButtonGroup,
 } from "@chakra-ui/react";
 import Farimage from "../Farimage/farida.img";
-import { Portfolio } from "../Page/Portfolio";
-import { useRef } from "react";
 
 const About = () => {
   return (
