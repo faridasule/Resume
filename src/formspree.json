@@ -1,0 +1,8 @@
+{
+  "forms": {
+    "Contact": {
+      "name": "Contact Form",
+      "actions": [{ "type": "email", "to": "faridasule24@gmail.com" }]
+    }
+  }
+}
